@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+}
+header{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    background-color: #92a1d1;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 0 20px;
+    gap: 20px;
+}
+.profile{
+    gap: 10px;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile_pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #92a1d1;
+    background-color: #92a1d1;
+}
+.name{
+    font-size: 30px;
+    font-weight: 600;
+}
+.hz{
+    margin-top: 10px;
+}
+
+.ex_title{
+    margin-bottom: 10px;
+    color: gray;
+}
+.example_pic{
+    width: 60px;
+    border-radius: 15px;
+    background-color: #92a1d1;
+    border: 1px solid #92a1d1;
+}
+.wtd_title{
+    color: gray;
+}
+.wtd{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.wtd_item{
+    padding: 5px 10px;
+    border-radius: 10px;
+    
+    background-color: #92a1d1;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wtd_item_chosen{
+    border: 2px solid lightblue;
+}
+.title{
+    color: white;
+}
+.price{
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    color: lightgray;
+  }
+  
+  .previous {
+    padding-bottom: 10px;
+    color: white
+  }
+
+  .headerContent{
+      display: flex;
+      justify-content: space-between;
+  }
+  
+.header_text{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_next{
+    cursor: pointer;
+    visibility: hidden;
+    width: 135px;
+    height: 45px;
+    left: 50%;
+    color: white;
+    font-size: 15px;
+    position: fixed;
+    bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #6174b3b7;
+    margin-left: -67.5px;
+    transition: 0.5s;
+    bottom: -200px;
+    text-align: center;
+}
+.btn_next_up{
+    bottom: 20px;
+    transition: 0.5s;
+    visibility: visible;
+}
